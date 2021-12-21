@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_2"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/author"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Author"
+        android:textSize="20sp"
+        >
+
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginBottom="60dp"
+        android:layout_width="175dp"
+        android:layout_height="125dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/book" />
+
+    <EditText
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/ic_action_userpic"
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        android:textColorHint="@android:color/white"
+        />
+
+    <EditText
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColorHint="@android:color/white" />
+
+    <Button
+        android:id="@+id/angry_btn"
+
+        android:text="LOGIN"
+        android:textColor="#F2FEFF"
+        android:textSize="20sp"
+
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <TextView
+        android:id="@+id/loginview"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+       android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  Are you registered yet?Sign Up" />
+
+    <ProgressBar
+        android:layout_marginTop="40dp"
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

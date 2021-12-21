@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "559279296876",
+    "firebase_url": "https://pdffile-f24ac.firebaseio.com",
+    "project_id": "pdffile-f24ac",
+    "storage_bucket": "pdffile-f24ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559279296876:android:6bcf193911a7b8faf2e349",
+        "android_client_info": {
+          "package_name": "com.example.engineering_books"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "559279296876-dbhtm6o246hndrefgantl0ospj5ugc85.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.engineering_books",
+            "certificate_hash": "57e8c19e8b8b741ac7ee86255033aee143a9b1ba"
+          }
+        },
+        {
+          "client_id": "559279296876-fr888opfkf614svjbgbag6ph0pe3tqbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQm2UJnJbt3UA5PDeamtOwamncQw6G-bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "559279296876-fr888opfkf614svjbgbag6ph0pe3tqbh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
